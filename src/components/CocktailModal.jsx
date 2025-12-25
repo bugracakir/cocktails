@@ -9,6 +9,17 @@ const CocktailModal = ({ cocktail, onClose, labels }) => {
     return () => window.removeEventListener('keydown', handleEsc);
   }, [onClose]);
 
+  useEffect(() => {
+    if (cocktail) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [cocktail]);
+
   if (!cocktail) return null;
 
   return (

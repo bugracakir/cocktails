@@ -40,7 +40,8 @@ function App() {
 
   const filteredRecipes = currentRecipes.filter(recipe => 
     recipe.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    recipe.category.toLowerCase().includes(searchQuery.toLowerCase())
+    recipe.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    recipe.ingredients.some(ing => ing.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
   const cocktails = filteredRecipes.filter(r => r.category === 'Cocktail');

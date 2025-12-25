@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    /* distinct dark gray background, white text */
+    @apply bg-[#0a0a0a] text-white min-h-screen antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer components {
+
+  /* Simple, modern card: slightly lighter gray, subtle border */
+  .modern-card {
+    @apply bg-[#171717]/50 border border-[#262626]/50 rounded-xl p-6 transition-all duration-300;
+  }
+
+  .modern-card:hover {
+    @apply bg-[#171717] border-[#404040] shadow-lg transform -translate-y-1;
+  }
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#262626] rounded-full hover:bg-[#404040] transition-colors;
+}

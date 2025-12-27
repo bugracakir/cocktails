@@ -25,15 +25,15 @@ export const recipes = {
     {
       id: 2,
       name: "Blood Jellyfish",
-      description: "Campari, Cointreau, gin and Bailey's",
+      description: "Campari, triple sec, gin and Bailey's",
       ingredients: [
         "1.5cl Campari",
-        "2.5cl Cointreau",
+        "2.5cl triple sec",
         "0.5cl Gin",
         "1 drop Bailey's"
       ],
       instructions: [
-        "Pour Campari, Cointreau, and gin into a shot glass.",
+        "Pour Campari, triple sec, and gin into a shot glass.",
         "Add a drop of Bailey's"
       ],
       category: "Shot"
@@ -451,6 +451,104 @@ export const recipes = {
         "Top with Ginger Ale"
       ],
       category: "Cocktail"
+    },
+    {
+      id: 28,
+      name: "Negroni",
+      description: "Gin, Campari, sweet vermouth",
+      ingredients: [
+        "3cl Gin",
+        "3cl Campari",
+        "3cl Sweet Vermouth",
+        "Orange peel"
+      ],
+      instructions: [
+        "Add ingredients to a mixing glass with ice and stir",
+        "Strain into an ice-filled glass and garnish with orange peel"
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 29,
+      name: "Dirty Shirley",
+      description: "Vodka, grenadine and Sprite",
+      ingredients: [
+        "6cl Vodka",
+        "3cl Grenadine",
+        "Top with Sprite"
+      ],
+      instructions: [
+        "Add ingredients to an ice-filled glass and top with Sprite",
+        "Stir gently and serve"
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 30,
+      name: "Kamikaze",
+      description: "Vodka, triple sec and lemon juice",
+      ingredients: [
+        "6cl Vodka",
+        "2.25cl Triple Sec",
+        "2.25cl Lemon Juice"
+      ],
+      instructions: [
+        "Add ingredients to shaker and shake well with ice",
+        "Strain into 2 large shot glasses"
+      ],
+      category: "Shot"
+    },
+    {
+      id: 31,
+      name: "Blue Hawaii",
+      description: "Vodka, rum, blue curaçao, pineapple juice, lemon juice and sugar syrup",
+      ingredients: [
+        "2.25cl Vodka",
+        "2.25cl Rum",
+        "1.5cl Blue Curaçao",
+        "9cl Pineapple Juice",
+        "1.5cl Lemon Juice",
+        "1.5cl Sugar Syrup"
+      ],
+      instructions: [
+        "Add ingredients to shaker and shake well with ice",
+        "Strain into a glass filled with crushed ice"
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 32,
+      name: "Lemon Drop",
+      description: "Vodka, triple sec, lemon juice and sugar syrup",
+      ingredients: [
+        "6cl Vodka",
+        "1.5cl Triple Sec",
+        "3cl Lemon Juice",
+        "3cl Sugar Syrup"
+      ],
+      instructions: [
+        "Rim the glass with sugar",
+        "Add ingredients to shaker and shake well with ice",
+        "Strain into the prepared glass"
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 33,
+      name: "Margarita",
+      description: "Tequila, triple sec, lemon juice and sugar syrup",
+      ingredients: [
+        "6cl Tequila",
+        "1.5cl Triple Sec",
+        "3cl Lemon Juice",
+        "1.5cl Sugar Syrup"
+      ],
+      instructions: [
+        "Rim the glass with salt",
+        "Add ingredients to shaker and shake well with ice",
+        "Strain into the prepared glass"
+      ],
+      category: "Cocktail"
     }
   ],
   tr: [
@@ -475,15 +573,15 @@ export const recipes = {
     {
       id: 2,
       name: "Blood Jellyfish",
-      description: "Campari, Cointreau, cin ve Bailey's",
+      description: "Campari, triple sec, cin ve Bailey's",
       ingredients: [
         "1.5cl Campari",
-        "2.5cl Cointreau",
+        "2.5cl triple sec",
         "0.5cl cin",
         "1 damla Bailey's"
       ],
       instructions: [
-        "Campari, Cointreau, cini bir shot bardağına koyun.",
+        "Campari, triple sec, cini bir shot bardağına koyun.",
         "Bir damla Bailey's ekleyin",
       ],
       category: "Shot"
@@ -512,9 +610,9 @@ export const recipes = {
       ingredients: [
         "Dry: 7.5cl cin, 1.5cl dry vermut, limon kabuğu",
         "Wet: 6cl cin, 3cl dry vermut, limon kabuğu",
-        "Dirty: 7.5cl votka, 1,5cl dry vermut, yeşil zeytin",
+        "Dirty: 7.5cl vodka, 1,5cl dry vermut, yeşil zeytin",
         "Reverse: 6cl dry vermut, 3cl cin, limon kabuğu veya zeytin",
-        "Vodka: 7.5cl votka, 1,5cl dry vermut, limon kabuğu veya zeytin",
+        "Vodka: 7.5cl vodka, 1,5cl dry vermut, limon kabuğu veya zeytin",
       ],
       instructions: [
         "Malzemeleri karıştırma bardağına koyun",
@@ -902,6 +1000,104 @@ export const recipes = {
       instructions: [
         "Tüm malzemeleri buzlu bardağa koyun",
         "Üzerini zencefilli gazoz ile tamamlayın",
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 28,
+      name: "Negroni",
+      description: "Cin, Campari, tatlı vermut",
+      ingredients: [
+        "3cl cin",
+        "3cl Campari",
+        "3cl tatlı vermut",
+        "Portakal kabuğu"
+      ],
+      instructions: [
+        "Malzemeleri buzlu bardağa koyun ve karıştırın",
+        "Buzlu bardağa süzün ve portakal kabuğunu ekleyin",
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 29,
+      name: "Dirty Shirley",
+      description: "Vodka, grenadine ve sprite",
+      ingredients: [
+        "6cl vodka",
+        "3cl grenadine",
+        "Sprite tamamla"
+      ],
+      instructions: [
+        "Malzemeleri buzlu bardağa koyup üzerini sprite ile tamamlayın",
+        "Hafifçe karışıtırın ve servis edin"
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 30,
+      name: "Kamikaze",
+      description: "Vodka, triple sec ve limon suyu",
+      ingredients: [
+        "6cl vodka",
+        "2.25cl triple sec",
+        "2.25cl limon suyu",
+      ],
+      instructions: [
+        "Malzemeleri shaker'a koyup buzla iyice çalkalayın",
+        "2 büyükçe shot bardağına süzün",
+      ],
+      category: "Shot"
+    },
+    {
+      id: 31,
+      name: "Blue Hawaii",
+      description: "Vodka, rom, blue curaçao, ananas suyu, limon suyu ve şeker şurubu",
+      ingredients: [
+        "2.25cl vodka",
+        "2.25cl rom",
+        "1.5cl Blue Curaçao",
+        "9cl ananas suyu",
+        "1.5cl limon suyu",
+        "1.5cl şeker şurubu",
+      ],
+      instructions: [
+        "Malzemeleri shaker'a koyup buzla iyice çalkalayın",
+        "Kırık buzla dolu kadehe süzün",
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 32,
+      name: "Lemon Drop",
+      description: "Vodka, triple sec, limon suyu ve şeker şurubu",
+      ingredients: [
+        "6cl vodka",
+        "1.5cl triple sec",
+        "3cl limon suyu",
+        "3cl şeker şurubu",
+      ],
+      instructions: [
+        "Kadehin kenarlarını şeker ile kaplayın",
+        "Malzemeleri shaker'a koyup buzla iyice çalkalayın",
+        "Hazırladığınız kadehe süzün",
+      ],
+      category: "Cocktail"
+    },
+    {
+      id: 33,
+      name: "Margarita",
+      description: "Tekila, triple sec, limon suyu ve şeker şurubu",
+      ingredients: [
+        "6cl Tekila",
+        "1.5cl triple sec",
+        "3cl limon suyu",
+        "1.5cl şeker şurubu"
+      ],
+      instructions: [
+        "Kadehin kenarlarını tuz ile kaplayın",
+        "Malzemeleri shaker'a koyup buzla iyice çalkalayın",
+        "Hazırladığınız kadehe süzün",
       ],
       category: "Cocktail"
     }
